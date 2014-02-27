@@ -1,0 +1,40 @@
+html {
+    background: url(../img/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+.wrapper {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    padding-top: 80px;
+    margin: 0 auto 0 auto;
+    width: 800px;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    color: #333;
+    margin: 0;
+}
+
+.icon-set {
+    margin-top: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 0 10px;
+    border-radius: 100%;
+    -webkit-transition: all .3s ease-in-out;
+       -moz-transition: all .3s ease-in-out;
+        -ms-transition: all .3s ease-in-out;
+         -o-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+.icon:hover {
+    background-color: #f00;
+}
